@@ -1,0 +1,11 @@
+$('.animate').hover(function(){
+    $(this).find('.top-line').css('left','-100%').animate({left:0},500)
+    $(this).find('.bottom-line').css('left','100%').animate({left:0},500)
+    $(this).find('.left-line').css('top','100%').animate({top:0},500)
+    $(this).find('.right-line').css('top','-100%').animate({top:0},500)
+},function(){
+    $(this).find('.top-line').animate({left:'-100%'},500)
+    $(this).find('.bottom-line').animate({left:'100%'},500)
+    $(this).find('.left-line').animate({top:'100%'},500)
+    $(this).find('.right-line').animate({top:'-100%'},500)
+})

@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+*{margin: 0; padding: 0;}
+
+.section{position: relative; width: 100%; color:#fff; text-align: center; font-weight: bold; text-transform: uppercase; font-size: 100px; line-height: 969px;}
+#section1{background: #f15e5e;}
+#section2{background: #8df15e;}
+#section3{background: #3db8b2;}
+#section4{background: #5e7ef1;}
+#section5{background: #a35ef1;}
+#section6{background: #f15ec7;}
+#section7{background: #414ba8;}
+#section8{background: #2dd7d7;}

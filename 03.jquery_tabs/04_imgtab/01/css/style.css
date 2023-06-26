@@ -1,0 +1,7 @@
+body{background: #192839; width: 620px; margin: 20px auto; padding: 0;}
+
+.thumbs-wrap{display: flex;}
+.thumbs img{border: 1px solid #ccc; padding: 5px; margin-bottom: 3px;}
+.thumbs img:hover{border-color:aqua; }
+#largeImg{border: 1px solid #ccc; padding: 3.5px; height: 280px}
+#largeImg img{display: block}

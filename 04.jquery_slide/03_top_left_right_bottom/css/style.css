@@ -1,0 +1,4 @@
+*{margin: 0; padding: 0;}
+#wrapper ul{ width: 280px; height: 390px; border: 2px solid #000; position: relative;  margin: 20px; overflow: hidden;}
+#wrapper ul li{position: absolute; list-style: none;  top: 100%}
+#wrapper ul li:first-child{top:0}

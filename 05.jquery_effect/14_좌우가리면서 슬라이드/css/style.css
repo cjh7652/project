@@ -1,0 +1,36 @@
+*{margin: 0; padding: 0;}
+body{background: #edecec;}
+.issue{width: 100%; height: 650px; background: #fffafa; float: left;}
+.issue .container{width: 90%; margin: 25px auto; position: relative; height: 100%}
+.issue .imgBox .page{
+    position: absolute;
+    top: 0; left: 50%; width: 680px; height: 450px; background: #333;
+    transform: translateX(-50%);
+}
+.issue .imgBox .page .view{width: 0%; height: 450px;  overflow: hidden; position: absolute;}
+.issue .imgBox .right{right:0}
+.issue .imgBox .page .view.on{width: 100%}
+.issue .imgBox .page .view img{position: absolute; top:0}
+.issue .imgBox .btn>a{
+    position: absolute;
+    text-transform: uppercase;
+    color:#333;
+    font-weight: bold;
+}
+.issue .imgBox .btn .prev{top: 40%; left: 100px;}
+.issue .imgBox .btn .next{top: 40%; right: 100px;}
+.issue .imgBox .page-bt{position: absolute; bottom: 50px; left: 50%; transform:translateX(-50%)}
+.issue .imgBox .page-bt> a{
+    display: block;
+    width: 15px; 
+    height: 15px; float: left;
+    margin-right: 20px;
+    background: #d0d0d0;
+    border-radius: 50%;
+    text-indent: -999999em;
+}
+.issue .imgBox .page-bt> a.on{
+    background: #333;
+    border: 4px solid #dadada;
+    box-sizing: border-box;
+}

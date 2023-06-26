@@ -1,0 +1,54 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+a{text-decoration: none; color: #222}
+.container nav{ position: absolute; width: 100%; background: #fff; height: 40px; z-index: 100;}
+.container nav>ul{display: flex; height: 40px; justify-content: center; overflow: hidden; transition:height .4s;}
+.container nav>ul>li>a{display: block; padding: 12px 40px; font-weight: bold; }
+.container nav>ul>li>ul>li>a{display: block; padding: 0 35px 0 40px; line-height: 38px; }
+.contents{width: 100%; height: 500px; background: #555;}
+a:focus{outline: none; color: red}
+.sub-shadow{
+    position: absolute;
+    width: 100%;
+    height: 0;
+    background: #1194bf;
+    z-index: 10;
+    transition:height .4s;
+    top: 40px;
+    left: 0
+}
+.sub-shadow.active{
+    height:190px;
+}
+nav>ul>li>ul{height: 0; transition: 0.4s;}
+nav>ul>li:hover>ul{background: #6ac0dd;height: 190px}
+.container nav>ul.active{height: 250px}

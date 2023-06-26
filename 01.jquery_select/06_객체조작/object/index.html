@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/lib/jquery-1.12.4.min.js"></script>
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <div id="wrap">
+        <div class="box1 box">
+            <h2>text, html</h2>
+            <div id="div1">안에 들어있는 텍스트</div>
+            <div id="div2">안에 들어있는 텍스트</div>
+            <div id="div3">안에 들어있는 텍스트</div>
+            <div id="div4">안에 들어있는 텍스트</div>
+        </div>
+        <div class="box box2">
+            <h2>src속성 변경</h2>
+            <img src="./img/img1.gif" alt="">
+            <img src="./img/img1.gif" alt="" id="changeThis">
+            <img src="./img/img1.gif" alt="">
+            <img src="./img/img1.gif" alt="">
+        </div>
+        <div class="box box3">  
+            <h2>addClass, removeClass</h2>
+            <div id="box3-1">add, remove1</div>
+            <div id="box3-2" class="add">add, remove2</div>
+            <div id="box3-3" class="add">add, remove3</div>
+            <div id="box3-4" class="add remove">add, remove4</div>
+        </div>
+        <div class="box box4">  
+            <h2>toggleClass</h2>
+            <div id="box4-1">toggle</div>
+            <p id="imgs">
+                <img src="./img/img.jpg" class="transi" alt="이미지">
+            </p>
+            <button class="click">click</button>
+        </div>
+        <div class="box box5">
+            <h2>val</h2>
+            <form action="#" method="get">
+                <input type="text" id="input1" value="텍스트필드입니다">
+                <textarea name="textarea" id="textarea1" cols="30" rows="10">텍스트영역입니다</textarea>
+                <select id="select1">
+                    <option value="city1">서울</option>
+                    <option value="city2">대전</option>
+                    <option value="city3">부산</option>
+                </select>
+                <select id="select2" multiple="multiple">
+                    <option value="town1">동구</option>
+                    <option value="town2">서구</option>
+                    <option value="town3">중구</option>
+                </select>
+            </form>
+            <h2>내용비우기 empty</h2>
+            <div class="empty">
+                넣고 싶은 텍스트
+            </div>
+        </div>
+        <div class="box box6">
+            <h2>수치조작</h2>
+            <h3>01_요소의 넓이 높이 메서드</h3>
+            <div id="wrap">
+                <p id="p1"><img src="./img/img1.jpg" alt=""></p>
+                <p id="p2"><img src="./img/img.png" alt=""></p>
+            </div>
+            <h3>02_요소의 위치 메서드</h3>
+            <div id="wrap1">
+                <p class="box1">박스</p>
+            </div>
+            <p class="txt-1">절대top위치값: <span></span></p>
+            <p class="txt-2">상대top위치값: <span></span></p>
+            <h3>03_스크롤바 위치 메서드</h3>
+            <div id="scroll">
+                <div class="bar">위치 메서드</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
